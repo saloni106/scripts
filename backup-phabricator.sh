@@ -2,6 +2,8 @@
 ##
 # Credits to @vnykmshr
 # Reproduced from his blog post http://www.vnykmshr.com/phabricator-automate-data-backup-using-dropbox/
+# Phabricator backups Runs daily at 18.30
+#  30 18 * * * cd /root/backup && ./backup.sh >> ./backup.log &
 ##
 
 set +x
